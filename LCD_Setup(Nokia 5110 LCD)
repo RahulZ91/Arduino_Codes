@@ -1,0 +1,22 @@
+/* The commands to setup Nokia 5110 LCD Display with Arduino Nano */
+#define RST 8
+#define CE  7
+#define DC  6
+#define DIN  5
+#define CLK  4
+
+void setup()
+{
+  pinMode(RST, OUTPUT);
+  pinMode(CE, OUTPUT);
+  pinMode(DC, OUTPUT);
+  pinMode(DIN, OUTPUT);
+  pinMode(CLK, OUTPUT);
+  digitalWrite(RST, LOW);
+  digitalWrite(RST, HIGH);
+}
+
+void loop()
+{
+  while(1);
+}
